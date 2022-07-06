@@ -3,10 +3,13 @@
 	create user usersite WITH ENCRYPTED PASSWORD 'usersite';
 	grant all privileges on database site_internet to usersite;
 
+
+
+
 > psql -U usersite -d site_internet
 	CREATE TABLE site (
 		url VARCHAR(50),
-		lanqgue VARCHAR(50),
+		langue VARCHAR(50),
 		CONSTRAINT pk_site PRIMARY KEY(url)
 		);
 
@@ -15,7 +18,7 @@
 		titre VARCHAR(50) NOT NULL,
 		contenu VARCHAR(50),
 		nb_ligne INTEGER,
-		date_cretation DATE,
+		date_creation DATE,
 		date_miseajour DATE,
 		url_site VARCHAR(50) NOT NULL,
 		CONSTRAINT pk_page PRIMARY KEY(id),
@@ -25,8 +28,7 @@
 
 
 	
-	insert into site(url, lanqgue) values('http://mysite.fr', 'FR');
-	
+	insert into site(url, langue) values('http://mysite.fr', 'FR');
 	insert into page(titre, contenu, nb_ligne, url_site) values('Accueil', 'Page dacceuil', 300, 'http://mysite.fr');
 	insert into page(titre, contenu, nb_ligne, url_site) values('Page 1', 'Ma premiere page', 128, 'http://mysite.fr');
 	insert into page(titre, contenu, nb_ligne, url_site) values('Page 2', 'Ma troisieme page', 489, 'http://mysite.fr');
