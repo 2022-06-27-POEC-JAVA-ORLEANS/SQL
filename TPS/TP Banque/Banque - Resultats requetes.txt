@@ -1,0 +1,77 @@
+######## REQUETE 1 ########
+
+        nom
+--------------------
+ Agence de Toulouse
+ Agence de Kiev
+ Agence de Madrid
+ Agence de Tokyo
+
+
+
+
+######## REQUETE 2 ########
+
+  nom
+--------
+ Julie
+ Vegeta
+ Pierre
+
+
+
+
+######## REQUETE 6 ########
+
+ id |  nom   | ville
+----+--------+--------
+  2 | Pierre | Madrid
+  7 | Julie  | Madrid
+  8 | Joe    | Kiev
+  9 | Vegeta | Tokyo
+
+
+
+
+######## REQUETE 7 ########
+
+ id | nom | ville
+----+-----+-------
+
+==> Aucun enregistrement !
+
+
+
+
+######## REQUETE 8 ########
+
+  nom
+--------
+ Vegeta
+ Julie
+ Pierre
+
+
+
+
+######## REQUETE 9 ########
+
+ nom  |  ville
+------+----------
+ Alex | Toulouse
+
+
+
+
+######## REQUETE 10 ########
+
+   nom   |  ville
+---------+----------
+ Ahmed   | Mulhouse
+ Alex    | Toulouse
+ Jacques | Lisbonne
+ Joe     | Kiev
+ Sangoku | Tokyo
+ 
+ 
+ 
